@@ -4,7 +4,6 @@ synopsis:            Initial project template from stack
 description:         Please see README.md
 homepage:            http://github.com/rTreutlein/opencoglib#readme
 license:             BSD3
-license-file:        LICENSE
 author:              Roman Treutlein
 maintainer:          roman.treutlein@gmail.com
 copyright:           GPL-3
