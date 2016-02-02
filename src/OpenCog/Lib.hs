@@ -9,5 +9,5 @@ foreign export ccall "someFunc"
 
 c_func = exportFunction someFunc
 
-someFunc :: AtomGen -> AtomSpace AtomGen
-someFunc a = return (Gen $ SetLink [a,a])
+someFunc :: Atom -> AtomSpace Atom
+someFunc a = return $ Link "SetLink" [a,a] noTv
